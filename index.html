@@ -4,10 +4,18 @@
         <meta charset="utf-8"/>
         <title>Proyecto JS y JQ</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
         <link rel="stylesheet" href="JS/jquery/jquery-ui-1.13.1/jquery-ui.min.css">
         <script type="text/javascript" src="JS/jquery/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="JS/jquery/jquery-ui-1.13.1/jquery-ui.min.js"></script>
+        <!-- hay que poner a lo ultimo nuestro main xq sino no carga las funciones de jq...-->
         <script type="text/javascript" src="JS/main.js"></script>
+
+
 
 
     </head>
@@ -31,7 +39,11 @@
             </header>
             <!-- Slider-->
             <div id="slider">
-
+                <div class="bxslider">
+                  <div><img src="img/hojas.jpg" title="Hojas"></div>
+                  <div><img src="img/rojo.jpg" title="The long and winding road"></div>
+                  <div><img src="img/cielo.jpg" title="Happy tres"></div>
+                </div>
             </div>
             <!-- Articulos-->
             <section id="content">
