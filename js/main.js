@@ -30,19 +30,19 @@ $(document).ready(function(){
     ]
     console.log(posts);
 
-    posts.forEach( (item, index) => {
-      var post="
-          <article class="post">
-              <h2>${item.title}</h2>
-              <span class="date">${item.date}</span>
-              <p>
-                  ${item.content}
-              </p>
-              <a href="#" class="button-more">Leer más</a>
-          </article>
-      $("#posts").append(post);
-    ";
-  });
+    posts.forEach((item, index) => {
+			var post = `
+				<article class="post">
+					<h2>${item.title}</h2>
+					<span class="date">${item.date}</span>
+					<p>
+						${item.content}
+					</p>
+					<a href="#" class="btnMore">Leer más</a>
+				</article>
+			`;
+			$("#posts").append(post);
+		});
 
     
 });
