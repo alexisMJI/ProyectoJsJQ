@@ -155,6 +155,11 @@ form input[type="submit"]{
     cursor: pointer;
 }
 
+.bx-wrapper, .bx-viewport{
+    height: 250px !important
+}
+
+
 footer {
     font-family: Helvetica, Arial;
     color:white;
