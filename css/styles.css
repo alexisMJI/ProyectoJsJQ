@@ -26,7 +26,6 @@ body{
     font-size: 28px;
     letter-spacing: 4px;
     line-height: 75px;
-    background: #235E3d;
     color: white;
     text-align: center;
     width: 385px;
@@ -55,9 +54,7 @@ body{
     transition: all 300ms;
 }
 
-#menu ul li:hover{
-    background: #235E3d;
-}
+
 
 #menu a{
     display: block;
@@ -95,7 +92,6 @@ body{
     text-align: center;
     display: block;
     padding: 15px;
-    background: #235E3D;
     color: white;
     text-decoration: none;
     margin-top: 10px;

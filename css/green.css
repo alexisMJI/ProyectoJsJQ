@@ -1,0 +1,12 @@
+body{
+    background: url("../img/hojas.jpg");
+}
+#logo{
+    background: #235E3d;
+}
+#menu ul li:hover{
+    background: #235E3d;
+}
+.btnMore{
+    background: #235E3D;
+}
