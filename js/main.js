@@ -113,4 +113,8 @@ $(document).ready(function(){
       }, 1000);
     }
 
+    //validacion de pag formulario
+    var formPag = $("#basic-form");
+    //form.validate();
+
 });
