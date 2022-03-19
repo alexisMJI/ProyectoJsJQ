@@ -113,8 +113,22 @@ $(document).ready(function(){
       }, 1000);
     }
 
-    //validacion de pag formulario
-    var formPag = $("#basic-form");
-    //form.validate();
+    //validacion form pagina https://github.com/victorjonsson/jQuery-Form-Validator
+    //es una version descontinuada..
+    // Validación
+	if(window.location.href.indexOf('contact') > -1){
+	
+		$("form input[name='date']").datepicker({
+			dateFormat: 'dd-mm-yy'
+		});
+
+		$.validate({
+		    lang: 'es',
+		    errorMessagePosition: 'top',
+		    scrollToTopOnError: true
+		});
+
+	}
+    
 
 });
